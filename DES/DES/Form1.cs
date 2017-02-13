@@ -52,7 +52,7 @@ namespace DES
 
             if (!int.TryParse(textBox3.Text, out parsedValue))
             {
-                MessageBox.Show("the key must be a number");
+                MessageBox.Show("the key must be a number"); //Ciao
             }
             else
             {
